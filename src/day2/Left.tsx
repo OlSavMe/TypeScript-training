@@ -1,10 +1,10 @@
 import React from 'react';
 
 const Left = (props:{
-    setName:string
+    setNimi:string
 }) => {
 const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-setName(event.currentTarget.value);
+    setNimi(event.currentTarget.value);
     };
 return (
         <>
