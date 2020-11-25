@@ -9,8 +9,8 @@ function App() {
   return (
     <div className="App">
       <section className="left-right">
-      <Right setName={setNimi} />
-<Left name={nimi}/>
+      <Right nimi={nimi} />
+      <Left setNimi={setNimi} />
       </section>
 
     </div>

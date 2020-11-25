@@ -11,7 +11,7 @@ const Right = (props:{
     <p>Hello, {nimi}</p>
     
             </>
-    )
+    );
 }
 
 export default Right;
