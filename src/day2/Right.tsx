@@ -1,16 +1,14 @@
 import React, {useState} from 'react';
 
 const Right = (props:{
-    nimi:string
+    nimi:string | undefined
 }) => {
 
 
     return (
         <>
-
-    <p>Hello, {nimi}</p>
-    
-            </>
+        <p>Hello, {props.nimi}</p>
+    </>
     );
 }
 
